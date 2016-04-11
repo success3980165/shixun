@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+	display: table;
+	content:" ";
+}
+
+.clearfix:after{
+	clear:both;
+}
+.clearfix{zoom:1;}
+
+
+/* top 的css 样式*/
+.top{
+	background-image: url(../images/top.png);
+}
+.top_nav{
+	width: 980px;
+	margin: 0 auto;
+}
+.top_list{
+	float: left;
+}
+.top_list li{
+	font-family: arial;
+	color:#fff;
+	font-size: 16px;
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+.phone{
+	float: left;
+	margin-left: 60px;
+	
+}
+.phone li{
+	font-family: arial;
+	color:#fff;
+	font-size: 16px;
+	float: left;
+	margin-top: 12px;
+	/*margin-bottom: 12px;*/
+	margin-right: 15px;
+}
+.login{
+	float: right;
+	
+}
+.login li{
+	font-family: arial;
+	color:#fff;
+	font-size: 16px;
+	float: left;
+	margin-top: 12px;
+	/*margin-bottom: 12px;*/
+	margin-left: 15px;
+}
+
+
+/*//header  css样式*/
+.header{
+	border-bottom: 1px solid #cccccc;
+}
+.header_in{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+#log{
+	margin: 8px 0px;
+
+}
+.nav{
+	float: right;
+}
+.nav li{
+	float: left;
+	line-height: 78px;
+	font-family: arial;
+	color: black;
+	font-size: 16px;
+	margin-left: 38px;
+}
+
+/*//banner  css样式*/
+.banner_in{
+	width: 980px;
+	margin: 0 auto;
+}
+#address{
+
+}
+#address li{
+	float: left;
+	margin-right: 13px;
+	margin-top: 22px;
+	font-family: arial;
+	color: black;
+	font-size: 16px;
+
+}

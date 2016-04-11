@@ -16,7 +16,7 @@
 				</ul>
 				<ul class="top2">
 					<li><img src="images/phone.png" alt="无法加载图片"></li>
-					<li class="top2-font"><a href="">下载手机APP</a></li>
+					<li class="top2-font"><a href="http://www.izijia.cn/app_down/">下载手机APP</a></li>
 				</ul>
 				<ul class="top3">
 					<li><a href="http://www.qq.com/"><img src="images/qq.gif" alt="无法加载图片"></a></li>
@@ -29,15 +29,15 @@
 		<div class="logo">
 			<div class="logo1"><img src="images/logo.jpg" alt="无法加载图片"></div>
 			<ul class="nav">
-				<li><a href="">首页</a></li>
-				<li><a href="">目的地</a></li>
-				<li><a href="">线路</a></li>
-				<li><a href="">订制</a></li>
-				<li><a href="">自驾团</a></li>
-				<li><a href="">摄影</a></li>
-				<li><a href="">互动</a></li>
-				<li><a href="">精选</a></li>
-				<li><a href="">预订</a></li>
+				<li class="beactive"><a href="">首页</a></li>
+				<li class="beactive"><a href="">目的地</a></li>
+				<li class="beactive"><a href="">线路</a></li>
+				<li class="beactive"><a href="">订制</a></li>
+				<li class="active"><a href="">自驾团</a></li>
+				<li class="beactive"><a href="">摄影</a></li>
+				<li class="beactive"><a href="">互动</a></li>
+				<li class="beactive"><a href="">精选</a></li>
+				<li class="beactive"><a href="">预订</a></li>
 			</ul>
 		</div>
 	</div>
@@ -170,8 +170,12 @@
 								<span>中国自驾游联盟南京站</span>
 							</div>
 							<ul class="introduce-list3_2">
-								<li><img src="images/yanjing.png">36</li>
-								<li><img src="images/shou.png">0</li>
+								<li>
+									<img src="images/yanjing.png">36
+								</li>
+								<li>
+									<a href=""><img src="images/shou.png"></a>0
+								</li>
 							</ul>
 						</li>
 					</ul>
@@ -683,14 +687,14 @@
 		</div>
 		<div class="nextPage">
 			<ul class="next-page">
-				<li><a href=""><<</a></li>
-				<li><a href=""><</a></li>
-				<li><a href="">1</a></li>
-				<li><a href="">2</a></li>
-				<li><a href="">3</a></li>
-				<li class="four"><a href="">4</a></li>
-				<li><a href="">></a></li>
-				<li><a href="">>></a></li>
+				<li class="one"><a href="page1-1.html"><<</a></li>
+				<li class="one"><a href="page1-2.html"><</a></li>
+				<li class="one"><a href="page1-3.html">1</a></li>
+				<li class="one"><a href="page1-4.html">2</a></li>
+				<li class="one"><a href="page1-5.html">3</a></li>
+				<li class="two"><a href="">4</a></li>
+				<li class="one"><a href="page1-6.html">></a></li>
+				<li class="one"><a href="page1-7.html">>></a></li>
 			</ul>
 		</div>
 	</div>
@@ -711,5 +715,20 @@
 			</ul>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		$(".nextPage .next-page li").click(function(){
+			$(this).css("background-color","#50bbdb").siblings().css("background-color","#d6d6d6");
+		})
+		$(document).ready(function(){
+			$(".nav .active").addClass("navActive");
+		});
+		$(".nav .beactive").mouseenter(function(){
+			$(this).addClass("navActive");
+		})
+		$(".nav .beactive").mouseleave(function(){
+			$(this).removeClass("navActive");
+		})
+	</script>
 </body>
 </html>
