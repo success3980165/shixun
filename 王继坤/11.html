@@ -18,14 +18,18 @@
 				</ul>
 				<div class="app">
 					<img src="images/phone.png">
+					<div class="app1">
 					<a href="">下载手机APP</a>
+					</div>
 				</div>
 				<div class="lianxi">
-					<img src="images/qq.gif">
-					<img src="images/sina.png">
+					<img src="images/qq.gif" >
+					<img src="images/sina.png" class="tp">
+					<div>
 					<a href="">登录</a>
 					<a>|</a>
 					<a href="">注册</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -39,7 +43,7 @@
 						<li><a href="">目的地</a></li>
 						<li><a href="">线路</a></li>
 						<li><a href="">定制</a></li>
-						<li class="zijiatu"><a href="">自驾图</a></li>
+						<li class="zijiatu"><a href="">自驾团</a></li>
 						<li><a href="">摄影</a></li>
 						<li><a href="">互动</a></li>
 						<li><a href="">精选</a></li>
@@ -93,6 +97,11 @@
 					<li class="shuzi">1</li>
 					<li class="jia">+</li>
 				</ul>
+				<!-- <div>
+					<input type="button" value="-" class="jian">
+					<input type="text" value="1" class="shuzi">
+					<input type="button" value="+" class="jia">
+				</div> -->
 				<p class="jianshu">(2人间)</p>
 				</div>
 				<div class="box6">
@@ -150,8 +159,8 @@
 			<div class="box31">
 				<div class="box11">
 					<p class="xingming">姓名</p>
-					<p class="xing">*</p>
-					<input type="text" value="" class="name11">
+					<p class="xing11">*</p>
+					<input type="text" value="" class="name11" placeholder="请输入姓名">
 				</div>
 				<div class="box12">
 					<p class="xingb">性别</p>
@@ -162,23 +171,158 @@
 				</div>
 				<div class="box13">
 					<p class="phone">手机号码</p>
-					<p class="xing">*</p>
-					<input type="text" value="" class="phone1">
+					<p class="xing11">*</p>
+					<input type="text" value="" class="phone1" placeholder="请输入手机号码">
 				</div>
 				<div class="box14">
 					<p class="mail">邮箱</p>
-					<p class="xing">*</p>
-					<input type="text" value="" class="mail1">
+					<p class="xing1">*</p>
+					<input type="text" value="" class="mail1" plaveholder="请输入邮箱">
 				</div>
 			</div>
 		</div>
-		<div class="main4"></div>
-		<div class="main5"></div>
-		<div class="main6"></div>
+		<div class="main4">
+			<div class="yk">
+				<p class="ykxx">游客信息</p>
+				<input type="text" value="常用游客" class="tex11">
+			</div>
+			<div class="yk1">
+				<p class="yk11">游客1</p>
+			</div>
+			<div class="lk">
+				<p class="lklx">旅客类型</p>
+				<input type="radio" class="anniu3">
+				<p class="cr">成人</p>
+				<input type="radio" class="anniu4">
+				<p class="et">儿童</p>
+			</div>
+			<div class="name3">
+				<p class="xingming1">姓名</p>
+				<p class="xing12">*</p>
+				<input type="text" value="" class="name31" placeholder="中文">
+				<input type="text" value="" class="name32" placeholder="请输入姓名">
+			</div>
+			<div class="sex">
+				<p class="xingb1">性别</p>
+					<input type="radio" class="anniu5">
+					<p class="nan1">男</p>
+					<input type="radio" class="anniu6">
+					<p class="nv1">女</p>
+			</div>
+			<div class="sjhm3">
+				<p class="phone5">手机号码</p>
+				<input type="text" value="" class="phone11" placeholder="请输入手机号">
+			</div>
+			<div class="zj">
+				<p class="xingming2">证件</p>
+				<p class="xing13">*</p>
+				<input type="text" value="" class="name41" placeholder="证件">
+				<input type="text" value="" class="name42" placeholder="证件号码" >
+			</div>
+			<input type="button" value="+添加游客" class="but">
+		</div>
+		<div class="main5">
+			<div class="bx">
+				<p class="bx1">保险</p>
+				<a href="" class="xq">详情></a>
+			</div>
+			<div class="bd">
+				<input type="text" value="" class="tex1">
+				<p class="pa1">平安爱自驾境外长线保险</p>
+				<p class="pa2">经典型2份</p>
+				<p class="qy">￥177</p>
+				<p class="yf">/一份</p>
+			</div>
+			<div class="bd1">
+				<input type="text" value="" class="tex2">
+				<p class="pa1">平安爱自驾境外长线保险</p>
+				<p class="pa2">经典型2份</p>
+				<p class="qy">￥177</p>
+				<p class="yf">/一份</p>
+			</div>
+		</div>
+		<div class="main6">
+			<div class="xd">
+				<p class="xdxx">预定信息</p>
+			</div>
+			<div class="fpxx">
+				<p class="fp">发票信息：</p>
+				<p class="fp1">是否需要发票：</p>
+				<input type="radio" value="" class="rad5">
+				<p class="nn">男</p>
+				<input type="radio" value="" class="rad6">
+				<p class="nvn">女</p>
+			</div>
+			<div class="ttx">
+				<p class="tt">发票抬头：</p>  
+				<input type="text" value="" class="fptt" placeholder="请输入发票抬头">
+			</div>
+			<div class="mxx">
+				<p class="mx">发票明细：</p>
+				<input type="text" value="" class="fpmx" placeholder="会议费">
+			</div>
+			<div class="dzx">
+				<p class="dz">配送地址：</p>
+				<input type="text" value="" class="fpdz" placeholder="请输入配送地址">
+			</div>
+			<div class="gd">
+				<a href="">更多要求>></a>
+			</div>
+		</div>
+		<div class="main7">
+			<div class="xi">
+				<p class="jsmx">总价：1×￥5280+1×￥120+1×￥170=<span class=jsmx1>￥5570</span></p>
+				<!-- <input type="text" value="总价：1×￥5280+1×￥120+1×￥170=" class="jsmx"> -->
+				<!-- <input type="text" value="￥5570" class="jsmx1"> -->
+			</div>
+			<div class="yuedu">
+				<div class="yydd">
+				<p class="yyd">已阅读爱自驾条款，并同意</p></div>
+				<input type="button" value="确认订单并提交" class="butt">
+			</div>
+		</div>
 	</div>
 	<div id="footer">
-		<div class="footer_top"></div>
-		<div class="footer_bottom"></div>
+		<div class="footer_top">
+			<div class="bottom1">
+				<ul>
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="beizhu">
+				<p class="chubanshe">人民交通出版社股份有限公司</p>
+				<p class="beihao">京ICP备15018898号-1</p>
+			</div>
+		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		$(".choice ul li").mouseenter(function(){
+			$(this).css("background-color","#50bbdb");
+			$(this).siblings().css("background-color","white");
+			$(".choice ul li").eq(4).css("background-color","#50bbdb");
+		})
+		$(".jian").click(function(){
+			if($(".shuzi").text()>0){
+				var result=Number($(".shuzi").text()); 
+				var result1=result-1;
+				$(".shuzi").text(result1);
+			}
+		})
+		$(".jia").click(function(){
+			var result=Number($(".shuzi").text()); 
+			var result1=result+1;
+			$(".shuzi").text(result1);
+		})
+		$(".toprad").click(function(){
+			$(this).attr("background-color","#50bbdb");
+		})
+	</script>
 </body>
 </html>

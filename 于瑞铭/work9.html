@@ -5,11 +5,17 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<!-- <link rel="stylesheet" type="text/css" media="all" href="style1/style.css"> -->
+
 </head>
 <body>
-	 <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-	 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	 <script type="text/javascript" src="script/jquery.cycle.all.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="script/jquery.cycle.all.js"></script>
+	
+
+
 	<div id="header">
 		<div id="bigbox">
 			<div id="box1">
@@ -26,12 +32,18 @@
 			<div id="box3">
 				<a href="" ><img src="images/qq.gif" alt="" class="nav1"></a>
 				<a href=""><img src="images/sina.png" alt="" class="nav2"></a>
-				<a href="">
 					<ul class="list2">
-					<li>登录</li>
+					<li data-toggle="modal" data-target="#myModal">
+					  登录
+					</li>
+					<!-- <li><a href="">登录</a></li> -->
 					<li>|</li>
-					<li>注册</li>
-				</ul></a>
+					<li data-toggle="modal" data-target="#dlModal">
+						注册
+					</li>
+				</ul>
+
+				
 			</div>
 		</div>
 	</div>
@@ -148,10 +160,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l1').innerHTML++"></li>
+				<li id="l1">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s1').innerHTML++"></li>
+				<li id="s1">0</li>
 			</ul>	
 			</div>
 
@@ -172,10 +184,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l2').innerHTML++"></li>
+				<li id="l2">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s2').innerHTML++"></li>
+				<li id="s2">0</li>
 			</ul>	
 			</div>
 
@@ -197,10 +209,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l3').innerHTML++"></li>
+				<li id="l3">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s3').innerHTML++"></li>
+				<li id="s3">0</li>
 			</ul>	
 			</div>
 
@@ -239,10 +251,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l4').innerHTML++"></li>
+				<li id="l4">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s4').innerHTML++"></li>
+				<li id="s4">0</li>
 			</ul>	
 			</div>
 
@@ -263,10 +275,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l5').innerHTML++"></li>
+				<li id="l5">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s5').innerHTML++"></li>
+				<li id="s5">0</li>
 			</ul>	
 			</div>
 
@@ -288,10 +300,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l6').innerHTML++"></li>
+				<li id="l6">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s6').innerHTML++"></li>
+				<li id="s6">0</li>
 			</ul>	
 			</div>
 
@@ -327,10 +339,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l7').innerHTML++"></li>
+				<li id="l7">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s7').innerHTML++"></li>
+				<li id="s7">0</li>
 			</ul>	
 			</div>
 
@@ -351,10 +363,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l8').innerHTML++"></li>
+				<li id="l8">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s8').innerHTML++"></li>
+				<li id="s8">0</li>
 			</ul>	
 			</div>
 
@@ -376,10 +388,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l9').innerHTML++"></li>
+				<li id="l9">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s9').innerHTML++"></li>
+				<li id="s9">0</li>
 			</ul>	
 			</div>
 
@@ -416,10 +428,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l10').innerHTML++"></li>
+				<li id="l10">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s10').innerHTML++"></li>
+				<li id="s10">0</li>
 			</ul>	
 			</div>
 
@@ -440,10 +452,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l11').innerHTML++"></li>
+				<li id="l11">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s11').innerHTML++"></li>
+				<li id="s11">0</li>
 			</ul>	
 			</div>
 
@@ -465,10 +477,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l12').innerHTML++"></li>
+				<li id="l12">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s12').innerHTML++"></li>
+				<li id="s12">0</li>
 			</ul>	
 			</div>
 
@@ -501,10 +513,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l13').innerHTML++"></li>
+				<li id="l13">36</li>
+				<li><img src="images/shou.png" onclick="document.getElementById('s13').innerHTML++"></li>
+				<li id="s13">0</li>
 			</ul>	
 			</div>
 
@@ -525,10 +537,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l14').innerHTML++"></li>
+				<li id="l14">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s14').innerHTML++"></li>
+				<li id="s14">0</li>
 			</ul>	
 			</div>
 
@@ -550,10 +562,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l15').innerHTML++"></li>
+				<li id="l15">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s15').innerHTML++"></li>
+				<li id="s15">0</li>
 			</ul>	
 			</div>
 
@@ -585,10 +597,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png" onclick="document.getElementById('l16').innerHTML++"></li>
+				<li id="l16">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s16').innerHTML++"></li>
+				<li id="s16">0</li>
 			</ul>	
 			</div>
 
@@ -609,10 +621,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l17').innerHTML++"></li>
+				<li id="l17">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s17').innerHTML++"></li>
+				<li id="s17">0</li>
 			</ul>	
 			</div>
 
@@ -634,10 +646,10 @@
 			</div>
 			<p class="nav5">中国自驾游联盟南京站</p>
 			<ul class="list8">
-				<a href=""><li><img src="images/yanjing.png" alt=""></li></a>
-				<li>36</li>
-				<a href=""><li><img src="images/shou.png" alt=""></li></a>
-				<li>0</li>
+				<li><img src="images/yanjing.png"  onclick="document.getElementById('l18').innerHTML++"></li>
+				<li id="l18">36</li>
+				<li><img src="images/shou.png"  onclick="document.getElementById('s18').innerHTML++"></li>
+				<li id="s18">0</li>
 			</ul>	
 			</div>
 
@@ -646,25 +658,25 @@
 
 		<div id="footer1">
 			<ul class="list9">
-				<a href=""><li><<</li></a>
-				<a href=""><li><</li></a>
-				<a href=""><li>1</li></a>
-				<a href=""><li>2</li></a>
-				<a href=""><li>3</li></a>
-				<a href=""><li>4</li></a>
-				<a href=""><li>></li></a>
-				<a href=""><li>>></li></a>
+				<li><<</li>
+				<li><</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>></li>
+				<li>>></li>
 				<div class="clear"></div>
 			</ul>
 		</div>
 
 		<div id="footer2">
 		 		<ul>
-		 			<a href=""><li>人民交通出版社</li></a>
-		 			<a href=""><li>爱自驾</li></a>
-		 			<a href=""><li>联系我们</li></a>
-		 			<a href=""><li>友情链接</li></a>
-		 			<a href=""><li>爱自驾品牌店</li></a>
+		 			<li><span>人民交通出版社</span></li>
+		 			<li><span>爱自驾</span></li>
+		 			<li><span>联系我们</span></li>
+		 			<li><span>友情链接</span></li>
+		 			<li><span>爱自驾品牌店</span></li>
 		 		</ul>
 		</div>
 
@@ -674,20 +686,100 @@
 				<li>京ICP备15018898号-1</li>
 			</ul>
 		</div>
+					<!-- Button trigger modal -->
+				<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				  Launch demo modal
+				</button> -->
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				    	<div class="bigmodal">
+				    		<img src="images/aizijialogo.jpg" alt="" class="aizijia">
+				    		<img src="images/cha.gif" alt="" class="cha">
+				    		<input type="text" class="txt1" placeholder="邮箱/手机/用户名">
+				    		<input type="text" class="txt2" placeholder="密码">
+				    		<input type="button" class="btn" value="登录">
+				    		<div class="midmodal">
+				    		<p class="p1">忘记密码</p>
+				    		<p class="p2">还没有账号？免费注册</p>
+				    		</div>
+				    		<img src="images/qita.gif" alt="" class="qita">
+				    		<input type="button" class="btn btn1" value="不登录，直接报名>">
+				    	</div>
+				     
+				    </div>
+				  </div>
+				</div>
+
+				
+
+				<div class="modal fade" id="dlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+						<div class="midmodal">
+							<img src="images/aizijialogo.jpg" alt="" class="aizijia">
+							<img src="images/cha.gif" alt="" class="cha">
+							<p class="p3">用手机注册</p>
+							<input type="text" class="txt3" placeholder="请输出邮箱">
+				    		<input type="text" class="txt4" placeholder="用户名,4-16个字符,字母/中文/数字">
+				    		<input type="text" class="txt5" placeholder="设置密码">
+				    		<input type="text" class="txt6" placeholder="输入密码">
+				    		<input type="text" class="txt7" placeholder="输入邀请码，可不填">
+				    		<div class="smmodal">
+				    			<p class="p4">注册视为同意<span>《爱自驾用户使用协议》</span></p>
+				    			<input type="button" class="btn btn2" value="注册">
+				    			<img src="images/qita.gif" alt="" class="qita1">
+				    		</div>
+				    		<input type="button" class="btn btn3" value="快速登录>">
+						</div>
+
+
+					 </div>
+				  </div>
+				</div>
 
 
 
-
-
-
-
-
+		<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
 		<script type="text/javascript">
 			$(".picList").cycle();
 
+			// $(function(){
+			//   $('#loginform').submit(function(e){
+			//     return false;
+			//   });
+			  
+			//   $('#modaltrigger').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+			// });
+
+
+
+			// $(".list8 .yanjing1").click(function(){
+			// 	var num1 = $(".list8 .l1").text();
+			// 	// var num1 = $(this).text()
+			// 	console.log(num1);
+			// 	if(num1 ==null){
+			// 		var num1 = 0;
+			// 	}else{
+			// 		num1++;
+			// 	}
+			// 	$(".list8 .l1").text(num1);
+			// })
+
+			// $(".list8 .shou1").click(function(){
+			// 	var num1 = $(".list8 .s1").text();
+			// 	console.log(num1);
+			// 	if(num1 ==null){
+			// 		var num1 = 0;
+			// 	}else{
+			// 		num1++;
+			// 	}
+			// 	$(".list8 .s1").text(num1);
+			// })
 		</script>
 
-	</div>
 
 
 

@@ -1885,7 +1885,11 @@
 		line-height: 37px;
 		color: #000;
 		text-align: center;
+		cursor: pointer;
 	}
+	#footer1 .list9 li:hover{
+		background-color:  #52bbdb;
+	} 
 	.clear{
 		clear: both;
 	}
@@ -1909,6 +1913,10 @@
 		padding-left: 40px;
 		color: #fff;
 	}
+	#footer2 ul li span:hover{
+		color: #52bbdb;
+		cursor: pointer;
+	} 
 	#footer3{
 		height: 41px;
 		background-color: #565d65;
@@ -1927,5 +1935,180 @@
 		text-align: center;
 		padding-left: 34px;
 	}
+	.bigmodal{
+		width: 500px;
+		height: 522px;
+		margin: 0px auto;
+
+	}
+	.bigmodal .aizijia{
+		display: block;
+		margin:0px auto;
+		padding-top: 24px;
+	}
+	.bigmodal .cha{
+		position: absolute;
+		top: 13px;
+		right: 13px;
+	}
+	.bigmodal .txt1{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 45px;
+		padding-left: 20px;
+	}
+	.bigmodal .txt2{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 16px;
+		padding-left: 20px;
+	}
+	.bigmodal .btn{
+		width: 353px;
+		height: 50px;
+		background-color: #50bbdb;
+		margin: 0px auto;
+		display: block;
+		margin-top: 15px;
+		color: #fff;
+
+	}
+	.bigmodal .midmodal{
+		margin: 0px auto;
+		width: 353px;
+		height: 60px;
+
+	}
+	.midmodal .p1{
+		color: #50bbdb;
+		float:left;
+		padding-top: 21px;
+	}
+	.midmodal .p2{
+		float: right;
+		padding-top: 21px;
+		color: #d5d5d5;
+	}
+	.bigmodal .qita{
+		display: block;
+		margin: 0px auto;
+		/*padding-top: 10px;*/
+	}
+	.bigmodal .btn1{
+		width: 234px;
+		height: 44px;
+		background-color: #50bbdb;
+		margin: 0px auto;
+		display: block;
+		color: #fff;
+		margin-top: 30px;
+	}
+
+	.midmodal{
+		width: 500px;
+		height: 668px;
+		margin: 0px auto;
+
+	}
+	.midmodal .aizijia{
+		display: block;
+		margin:0px auto;
+		padding-top: 24px;
+	}
+	.midmodal .cha{
+		position: absolute;
+		top: 13px;
+		right: 13px;
+	}
+	.midmodal .p3{
+		/*width: 353px;
+		height: 45px;*/
+		margin-right: 72px;
+		float: right;
+		padding-top: 16px;
+		color: #50bbdb;
+	}
+	.midmodal .txt3{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 50px;
+		padding-left: 20px;
+	}
+	.midmodal .txt4{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 16px;
+		padding-left: 20px;
+	}
+	.midmodal .txt5{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 16px;
+		padding-left: 20px;
+	}
+	.midmodal .txt6{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 16px;
+		padding-left: 20px;
+	}
+	.midmodal .txt7{
+		width: 353px;
+		height: 53px;
+		margin: 0px auto;
+		display: block;
+		margin-top: 16px;
+		padding-left: 20px;
+	}
+	.smmodal{
+		width: 353px;
+		height: 74px;
+		margin: 0px auto;
+	}
+	.smmodal .p4{
+		color: #cfcfcf;
+		line-height: 74px;
+		font-size: 12px;
+		float: left;
+	}
+	.smmodal .p4 span{
+		color: #000;
+	}
+	.smmodal .btn2{
+		width: 120px;
+		height: 40px;
+		background-color:#50bbdb;
+		color: #fff; 
+		float: right;
+		margin-top: 17px;
+	}
+	.bigmodal .qita1{
+		display: block;
+		margin: 0px auto;
+		margin-top: 12px;
+	}
+	.midmodal .btn3{
+		width: 233px;
+		height: 44px;
+		background-color: #50bbdb;
+		margin: 0px auto;
+		display: block;
+		color: #fff;
+		margin-top: 60px;
+	}
+
+	
 
 	
