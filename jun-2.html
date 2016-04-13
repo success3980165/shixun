@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/jun-2.css">
+</head>
+<body>
+
+	<div id="header clearfix">
+		
+		<div class="top clearfix">
+			<ul class="top-inner">
+				<li class="topbox-l">
+					<a class="adress" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 北京<span> 切换</span></a>
+					<div class="dropdown-menu" aria-labelledby="dLabel">
+    <div class="changeCity clearfix" style="width:706px;font-family:'微软雅黑';font-size:15px;">
+      <div style="float:left;width:46px;height:auto;color:#666;padding-top:3px;">
+        全国:
+      </div>
+      <div style="float:left;width:630px;height:auto;">
+        <ul id="placelist" style="width:630px;display:in-line;">
+          <li class="placeName" id="11">北京</li>
+          <li class="placeName" id="12">天津</li>
+          <li class="placeName" id="13">河北</li>
+          <li class="placeName" id="14">山西</li>
+          <li class="placeName" id="15">内蒙古</li>
+          <li class="placeName" id="21">辽宁</li>
+          <li class="placeName" id="22">吉林</li>
+          <li class="placeName" id="23">黑龙江</li>
+          <li class="placeName" id="31">上海</li>
+          <li class="placeName" id="32">江苏</li>
+          <li class="placeName" id="33">浙江</li>
+          <li class="placeName" id="34">安徽</li>
+          <li class="placeName" id="35">福建</li>
+          <li class="placeName" id="36">江西</li>
+          <li class="placeName" id="37">山东</li>
+          <li class="placeName" id="41">河南</li>
+          <li class="placeName" id="42">湖北</li>
+          <li class="placeName" id="43">湖南</li>
+          <li class="placeName" id="44">广东</li>
+          <li class="placeName" id="45">广西</li>
+          <li class="placeName" id="46">海南</li>
+          <li class="placeName" id="50">重庆</li>
+          <li class="placeName" id="51">四川</li>
+          <li class="placeName" id="52">贵州</li>
+          <li class="placeName" id="53">云南</li>
+          <li class="placeName" id="54">西藏</li>
+          <li class="placeName" id="61">陕西</li>
+          <li class="placeName" id="62">甘肃</li>
+          <li class="placeName" id="63">青海</li>
+          <li class="placeName" id="64">宁夏</li>
+          <li class="placeName" id="65">新疆</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+					<a class="mobile" href="#"> 下载手机APP</a>
+				</li>
+				<li class="topbox-r">
+					<a class="qq" href="#"> </a>
+					<a class="sina" href="#"> </a>
+					<a href="#" data-toggle="modal" data-target="#myModal">登录</a><span><b>|</b></span>
+					<a href="#" data-toggle="modal" data-target="#myModal-2">注册</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="logonav clearfix">
+			<a  class="logopic" href=""><img src="images/jun-images/logo.jpg"></a>
+			<ul class="choice">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">目的地</a></li>
+					<li><a href="#">线路</a></li>
+					<li><a href="#">定制</a></li>
+					<li><a href="#">自驾团</a></li>
+					<li><a href="#">摄影</a></li>
+					<li><a href="#">互动</a></li>
+					<li><a href="#">精选</a></li>
+					<li><a href="#">预定</a></li>
+			</ul>
+		</div>
+		<div class="banner clearfix">
+				<div class="banner-inner">
+					<img src="images/jun-images/earth.jpg">
+				</div>
+			
+		</div>
+	</div>
+	<div id="main clearfix">
+		<div class="main_top">
+			<div class="biaozhi">
+				<img src="images/jun-images/lianxiren.png">
+				<p class="abc">联系人信息</p>
+				<p class="ab">(必填)</p>
+			</div>
+			<form class="biaodan">
+				<table width="500" border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">  姓名</td>
+						<td width="412"> 
+                    		<input name="username" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="请输入姓名">
+                  		</td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">手机号码</td>
+						<td width="412"> 
+                    		<input name="cellphone" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px;" placeholder="请输入手机号码">
+                  </td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">  邮箱</td>
+						<td width="412">
+							<input name="email" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="请输入邮箱">
+                  		</td>
+					</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div class="main_mid">
+			<div class="information">
+				<img src="images/jun-images/book.png">
+				<p class="base1">基本信息</p>
+				<p class="base2">(必填)</p>
+			</div>
+			<div class="chuyou">
+				<form class="chufadi">
+					<table width="650" border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr class="firstbox">
+						<td width="81" height="35" style=" line-height: 60px;">出游性质</td>
+						<td>
+							<ul class="bigbox">
+								<li><a href="#">公司</a></li>
+								<li><a href="#">私人</a></li>
+							</ul>
+						</td>		
+					</tr>
+		
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">出发地</td>
+						<td width="212"> 
+                    		<input name="goplace" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="上海">
+                  		</td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">目的地</td>
+						<td width="212"> 
+                    		<input name="backplace" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="北京">
+                  		</td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">出发日期</td>
+						<td width="212">
+							<input name="oday" type="date" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="最早">
+                  		</td>
+                  		<td width="30" height="35" style=" line-height: 60px;">~</td>
+                  		<td width="212">
+							<input name="oday" type="date" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="最晚">
+                  		</td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">游玩天数</td>
+						<td width="212"> 
+                    		<input name="yday" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="请输入">
+                  		</td>
+                  		<td width="30" height="35" style=" line-height: 60px;">天</td>
+					</tr>
+					<tr>
+						<td width="81" height="35" style=" line-height: 60px;">出行人数</td>
+						<td width="212"> 
+                    		<input name="gonum" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder=">3">
+                 		 </td>
+                 		 <td width="40" height="35" style=" line-height: 60px;">成人</td>
+                 		 <td width="212"> 
+                    		<input name="childnum" type="text" style="width:185px; height:35px; border:1px solid #cccccc; font-size: 14px" placeholder="请输入儿童">
+                 		 </td>
+                 		 <td width="40" height="35" style=" line-height: 60px;">儿童</td>
+					</tr>
+					</tbody>
+				</table>
+				</form>
+		</div>
+	</div>
+	<div class="main_bottom clearfix">
+			<div class="wendang">
+				<img src="images/jun-images/tesefuwu.png">
+				<p class="fuwu">特色服务</p>
+			</div>
+			<form class="tService">
+					<table width="650" border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr class="secbox">
+						<td width="81" height="35" style=" line-height: 60px;">旅行国界</td>
+						<td>
+							<ul class="midbox">
+								<li><a href="#">不限</a></li>
+								<li><a href="#">境内</a></li>
+								<li><a href="#">境外</a></li>
+							</ul>
+						</td>		
+					</tr>
+					<tr class="secbox">
+						<td width="81" height="35" style=" line-height: 60px;">行程安排</td>
+						<td>
+							<ul class="midbox">
+								<li><a href="#">不限</a></li>
+								<li><a href="#">紧凑</a></li>
+								<li><a href="#">适中</a></li>
+								<li><a href="#">宽松</a></li>
+							</ul>
+						</td>		
+					</tr>
+					<tr class="secbox">
+						<td width="81" height="35" style=" line-height: 60px;">住宿安排</td>
+						<td>
+							<ul class="midbox">
+								<li><a href="#">不限</a></li>
+								<li><a href="#">三星/舒适</a></li>
+								<li><a href="#">四星/高档</a></li>
+								<li><a href="#">五星/豪华</a></li>
+								<li><a href="#">特色住宿</a></li>
+							</ul>
+						</td>		
+					</tr>
+					<tr class="secbox">
+						<td width="81" height="35" style=" line-height: 60px;">我的要求</td>
+						<td width="212"> 
+                    		<textarea name="myreq" type="text" style="width:450px; height:150px; border:1px solid #cccccc;" placeholder="写下的你要求">
+                			</textarea>
+                  		</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		<input type="submit" value="提交" class="submit">
+	</div>
+</div>
+	<div id="footer">
+		<div class="footer_top">
+			<div class="bottom1">
+				<ul>
+					<li><a href="#">人民交通出版社</a></li>
+					<li><a href="#">爱自驾</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">友情链接</a></li>
+					<li><a href="#">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="footer_bottom">
+			<div class="beizhu">
+				<p class="chubanshe">人民交通出版社股份有限公司</p>
+				<p class="beihao">京ICP备15018898号-1</p>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modalheader">
+        <a class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/jun-images/denglu.jpg" style="float: right;
+  margin-right: 15px;cursor:pointer;">
+        </a>
+        <div class="denglu">
+          <img src="images/jun-images/dengluks.jpg" width="172" height="61">
+        </div>
+      </div>
+      <form class="modalbody">
+        <input type="text" style=" border:1px solid #EAEAEA; width:350px; height:46px; margin-bottom:17px;font-size:12px;   font-family:" 微软雅黑";"="" placeholder="&nbsp;&nbsp;邮箱/手机/用户名" id="username" name="username" >
+        <input type="password" style=" border:1px solid #EAEAEA; width:350px; height:46px; margin-bottom:17px;font-size:12px;   font-family:" 微软雅黑";"="" placeholder="&nbsp;&nbsp;密码" id="password" name="password" >
+        <img src="images/jun-images/dengluks1.jpg" onclick="#" style="cursor:pointer;">
+      </form>
+      <div class="modalfooter">
+        <div class="misspwd" onclick="#" style="cursor:pointer;color:#50B8DB">忘记密码</div>
+        <div class="misspwd2">还没有账号 ？立即<span><a href="#" style="color:#50B8D8;" data-toggle="modal" data-target="#myModal-2">注册</a></span></div>
+      </div>
+      <div class="qita">使用其他账号登陆</div>
+      <div class="qita2">
+             <img src="images/jun-images/dengluks2.jpg" style="cursor:pointer;" onclick="#">
+             <img src="images/jun-images/dengluks3.jpg" style="cursor:pointer;" onclick="#"></div>
+    </div>
+  </div>
+</div>
+  <!-- Modal2 -->
+<div class="modal fade" id="myModal-2"  role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content-2">
+      <div class="modalheader-2">
+        <a class="close" data-dismiss="modal" aria-label="Close">
+          <img src="images/jun-images/denglu.jpg" style="float: right;
+  margin-right: 15px;cursor:pointer;">
+        </a>
+        <div class="denglu">
+          <img src="images/jun-images/dengluks.jpg" width="172" height="61">
+        </div>
+      </div>
+      <form class="modalbody-2">
+        <input name="username" id="email" check-type="UserEmail"type="text" placeholder="&nbsp;&nbsp;请输入邮箱" style=" border:1px solid #EAEAEA; width:350px; height:46px; margin-bottom:17px;color:#333; font-size:12px;   font-family:" 微软雅黑";"="" value="">
+        <input name="nickname" id="nickname" check-type="Nickname" type="text" style=" border:1px solid #EAEAEA; width:350px; height:46px; margin-bottom:17px;color:#333; font-size:12px;   font-family:" 微软雅黑";"="" placeholder="&nbsp;&nbsp;用户名，4-16个字符，字母/中文/数字">
+        <input name="password" type="password" style=" border:1px solid #EAEAEA; width:350px; height:46px; margin-bottom:17px;color:#333; font-size:12px;   font-family:" 微软雅黑";"="" placeholder="&nbsp;&nbsp;设置密码" id="inputPassword" check-length="6,16">
+        <input name="repassword" type="password" placeholder="&nbsp;&nbsp;输入密码" style=" margin-bottom:17px; border:1px solid #EAEAEA; width:350px; height:46px;color:#333; font-size:12px;   font-family:" 微软雅黑";"="" id="inputRePassword">
+        <input name="code" type="text" placeholder="&nbsp;&nbsp;输入邀请码，可不填" value="" style=" margin-bottom:17px; border:1px solid #EAEAEA; width:350px; height:46px;color:#333; font-size:12px;   font-family:" 微软雅黑";"="" id="code">
+      </form>
+      <div class="modalfooter-2">
+        <div class="tongyi" style="font-size:12px; line-height:44px;">注册视为同意<span style="cursor: pointer;" onclick="#">《爱自驾用户使用协议》</span></div>
+        <div class="zhuce">
+          <input name="" type="image" src="images/jun-images/zhuce.gif">
+      </div>
+      </div>
+      <div class="qita">使用其他账号登陆</div>
+      <div class="qita2">
+             <img src="images/jun-images/dengluks2.jpg" style="cursor:pointer;" onclick="#">
+             <img src="images/jun-images/dengluks3.jpg" style="cursor:pointer;" onclick="#"></div>
+    </div>
+  </div>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/jquery.validate-zh.js"></script>
+	<script type="text/javascript">
+	$(".biaodan").validate({
+			errorElement: "span",
+			rules:{
+				username:{
+					minlength: 2,    
+					required: true
+				},
+				cellphone:{
+					required: true,
+					minlength: 11,
+					maxlength: 11
+				},
+				email:{
+					required: true,
+					email: true 
+				}
+			},
+			messages:{
+
+			}
+
+	})
+	$(".chufadi").validate({
+			errorElement: "p",
+			rules:{
+				goplace:{
+					minlength: 2,    
+					required: true
+				},
+				backplace:{
+					minlength: 2,    
+					required: true
+				},
+				yday:{
+					required: true,
+					number: true,
+					max:10,    
+					min:0 
+				},
+				gonum:{
+					required: true,
+					number: true,
+					max:10,    
+					min:1 
+				},
+				childnum:{
+					required: true,
+					number: true,
+					max:10,    
+					min:1 
+				}
+			}	
+	})
+	$('.dropdown-toggle').dropdown()
+	$(".placeName").click(function(){
+   		var val=$(this).text();
+   		$(".adress").html(val+"<span> 切换</span>")
+})
+	</script>
+</body>
+</html>
