@@ -80,6 +80,7 @@
 	#box3 .list2 li{
 		float: left;
 		padding-left: 5px;
+		cursor: pointer;
 
 	}
 	#box3 a{
@@ -1936,7 +1937,7 @@
 		padding-left: 34px;
 	}
 	.bigmodal{
-		width: 500px;
+		/*width: 500px;*/
 		height: 522px;
 		margin: 0px auto;
 
@@ -2009,7 +2010,7 @@
 	}
 
 	.midmodal{
-		width: 500px;
+		/*width: 500px;*/
 		height: 668px;
 		margin: 0px auto;
 
