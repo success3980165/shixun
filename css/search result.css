@@ -26,12 +26,14 @@ ul{
 	background-image: url(../images/zhao-images/top.png);
 	width: 1002px;
 	margin: 0 auto;
+
 }
 .top_list{
 	float: left;
+	cursor: pointer;
 }
 .top_list li{
-	font-family: arial;
+	font-family:Microsoft YaHei Regular;
 	color:#fff;
 	font-size: 16px;
 	float: left;
@@ -42,10 +44,11 @@ ul{
 .phone{
 	float: left;
 	margin-left: 60px;
-	
+	width: 135px;
+	cursor: pointer;
 }
 .phone li{
-	font-family: arial;
+	font-family:Microsoft YaHei Regular;
 	color:#fff;
 	font-size: 16px;
 	float: left;
@@ -55,10 +58,11 @@ ul{
 }
 .login{
 	float: right;
+	cursor: pointer;
 	
 }
 .login li{
-	font-family: arial;
+	font-family:Microsoft YaHei Regular;
 	color:#fff;
 	font-size: 16px;
 	float: left;
@@ -81,13 +85,13 @@ ul{
 	margin: 8px 0px;
 
 }
-.nav{
+#nav{
 	float: right;
 }
-.nav li{
+#nav li{
 	float: left;
 	line-height: 78px;
-	font-family: arial;
+	font-family:Microsoft YaHei Regular;
 	color: black;
 	font-size: 16px;
 	margin-left: 38px;
@@ -104,7 +108,7 @@ ul{
 	float: left;
 	margin-right: 13px;
 	margin-top: 22px;
-	font-family: arial;
+	font-family:Microsoft YaHei Regular;
 	color: black;
 	font-size: 16px;
 
