@@ -144,7 +144,7 @@
 		  color: #333333;
 		  text-decoration: none;
 	}
-	.logonav ul li a:hover{
+	.logonav ul li a:hover,ul li a.hover{
 		color: #fff;
 		background: url(../images/jun-images/menubg.png) left bottom repeat-x #50bbdb;
   		text-decoration: none;
@@ -270,14 +270,15 @@
 		border: 1px solid #cccccc;
 		text-align: center;
 	}
-	.bigbox li a{
+	.bigbox li{
 		font-size: 14px;
 		color: #696969;
 		text-decoration: none;
 		display: inline-block;
 		line-height: 35px;
 	}
-	.bigbox li:hover{
+	.bigbox li:hover,li.xuan{
+		color: #fff;
 		background-color:#50bbdb;
 	}
 	.main_bottom{
@@ -307,15 +308,13 @@
 		text-align: center;
 		margin-right: 10px;
 		line-height: 35px;
-	}
-	.midbox li a{
 		font-size: 14px;
 		color: #696969;
 		text-decoration: none;
 		display: inline-block;
-		line-height: 35px;
 	}
-	.midbox li:hover{
+	.midbox li:hover,li.xuan{
+		color: #fff;
 		background-color:#50bbdb;
 	}
 	.wendang{
