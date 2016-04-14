@@ -26,6 +26,7 @@
 	#box1 .list1{
 		list-style: none;
 		padding-left: 14px;
+		font-family: 微软雅黑
 
 	}
 	#box1 img{
@@ -46,6 +47,7 @@
 		float: left;
 		margin-left: 74px;
 		margin-top: 12px;
+		font-family: 微软雅黑
 	}
 	#box2 img{
 		float: left;
@@ -62,6 +64,7 @@
 		float: right;
 		margin-top: 12px;
 		list-style: none;
+		font-family: 微软雅黑
 	}
 	#box3 .nav1{
 		float: left;
@@ -109,6 +112,7 @@
 		float: right;
 		list-style: none;
 		margin-top: -25px;
+		font-family: 微软雅黑
 	}
 	#bigbox1 .list3 li{
 		width: 80px;
@@ -190,6 +194,7 @@
 		list-style: none;
 		height: 49px;
 		overflow: hidden;
+		font-family: 微软雅黑
 	}
 	#box6 .list5 li{
 		
@@ -197,6 +202,7 @@
 		margin-left: 16px;
 		
 	}
+	
 	#box6 .box7{
 		width: 5px;
 		height: 44px;
@@ -234,6 +240,7 @@
 	}
 	#box9 .box10 ul li{
 		text-align: center;
+		font-family: 微软雅黑
 	}
 	#box11 p{
 		width: 786px;
@@ -243,6 +250,7 @@
 		margin-left: 54px;
 		margin-top: 34px;
 		color: #858585;
+		font-family: 微软雅黑
 	}
 	#box12{
 		width: 1002px;
@@ -279,7 +287,7 @@
 		float: left;
 
 	}
-	#box14 .list5 li{
+	#box14 .list5 li {
 		width: 105px;
 		height: 55px;
 		float: left;
@@ -287,12 +295,15 @@
 		padding-top:7px;
 		border-right: 1px solid #cccccc;
 	}
+
 	#box14 .list5 .yanse{
 		color: #ababab;
+
 		
 	}
 	#box14 .list5 .yanse img{
 		margin-left: 5px;
+		cursor: pointer;
 	}
 	#box14 .list6{
 		width: 250px;
@@ -332,7 +343,8 @@
 		height: 443px;
 		margin: 0px auto;
 		margin-top: 19px;
-		border: 1px solid #cccccc
+		border: 1px solid #cccccc;
+		font-family: 微软雅黑
 	}
 
 
@@ -597,6 +609,7 @@
 			margin-top: 19px;
 			border: 1px solid #cccccc;
 			margin-top: 9px;
+			font-family: 微软雅黑
 		}
 
 
@@ -856,6 +869,7 @@
 			margin-top: 19px;
 			border: 1px solid #cccccc;
 			margin-top: 9px;
+			font-family: 微软雅黑
 		}
 
 
@@ -1110,6 +1124,7 @@
 			margin-top: 19px;
 			border: 1px solid #cccccc;
 			margin-top: 9px;
+			font-family: 微软雅黑
 		}
 
 
@@ -1367,6 +1382,7 @@
 			margin-top: 19px;
 			border: 1px solid #cccccc;
 			margin-top: 9px;
+			font-family: 微软雅黑
 		}
 
 
@@ -1621,6 +1637,7 @@
 			margin-top: 19px;
 			border: 1px solid #cccccc;
 			margin-top: 9px;
+			font-family: 微软雅黑
 		}
 
 
@@ -1898,6 +1915,7 @@
 	#footer2{
 		height: 50px;
 		background-color: #444b55;
+		font-family: 微软雅黑
 
 	}
 	#footer2 ul{
@@ -1921,6 +1939,7 @@
 	#footer3{
 		height: 41px;
 		background-color: #565d65;
+		font-family: 微软雅黑
 	}
 	#footer3 ul{
 		height: 41px;
@@ -2109,7 +2128,41 @@
 		color: #fff;
 		margin-top: 60px;
 	}
+	
 
+	.green{
+		display: block;
+		color: green;
+		position: absolute;
+		top: 165px;
+		right: 50px;
+		
+	}
+	.red{
+		color: red;
+		position: absolute;
+		top: 165px;
+		right: 50px;
+		display: block;
+		
+	}
+	.green1{
+		display: block;
+		color: green;
+		position: absolute;
+		top: 235px;
+		right: 50px;
+		
+	}
+	.red1{
+		color: red;
+		position: absolute;
+		top: 235px;
+		right: 50px;
+		display: block;
+		
+	}
+	
 	
 
 	
