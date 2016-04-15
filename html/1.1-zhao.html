@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/search result.css">
+	<style>
+	.banner002{
+		height: 100px;
+		background-image: url(../images/zhao-images/banner.png);
+	}
+	.top_city{
+		display: none;
+		background-image: url(../images/zhao-images/banner.png);
+		border-radius: 5px;
+		box-shadow: 0 0 5px black;
+		position: absolute;
+	    margin: 0px auto;
+	    top: 40px;
+	    left: 14%;
+	    z-index: 99999;
+		/*border: 1px solid red;*/
+	}
+	.allcity{
+		margin-top: 7px;
+	}
+	.allcity span{
+		font-family:Microsoft YaHei Regular;
+		font-size: 15px;
+		display: block;
+		float: left;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.allcity ul{
+		float: left;
+		/*border: 1px solid black;*/
+		width: 630px;
+	}
+	.allcity ul li{
+		float: left;
+		font-family:Microsoft YaHei Regular;
+		font-size: 15px;
+	    color: #50B8D8;
+		/*padding: 5px 16px;*/
+		cursor: pointer;
+		width: 66px;
+		line-height: 26px;
+		text-align: center;
+		background-color: #fff;
+	}
+
+	.modal-content{
+		width: 500px;
+	}
+	.modal-header span{
+		margin-bottom: 10px;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="top">
+		<div class="top_nav clearfix">
+			<ul class="top_list">
+				<li><img id="live" src="../images/zhao-images/live.png"  alt=""></li>
+				<li>北京</li>
+				<li>切换</li>
+			</ul>
+			<div class="top_city">
+				<div class="allcity  clearfix">
+					<span>全国:</span>
+					<ul id="citys">
+						<li>北京</li>
+						<li>天津</li>
+						<li>河北</li>
+						<li>山西</li>
+						<li>内蒙古</li>
+						<li>辽宁</li>
+						<li>吉林</li>
+						<li>黑龙江</li>
+						<li>上海</li>
+						<li>江苏</li>
+						<li>浙江</li>
+						<li>安徽</li>
+						<li>福建</li>
+						<li>江西</li>
+						<li>山东</li>
+						<li>河南</li>
+						<li>湖北</li>
+						<li>湖南</li>
+						<li>广东</li>
+						<li>广西</li>
+						<li>海南</li>
+						<li>重庆</li>
+						<li>四川</li>
+						<li>贵州</li>
+						<li>云南</li>
+						<li>西藏</li>
+						<li>陕西</li>
+						<li>甘肃</li>
+						<li>青海</li>
+						<li>宁夏</li>
+						<li>新疆</li>
+					</ul>
+				</div>
+			</div>			
+			<ul class="phone ">
+				<li><img id="phone1" src="../images/zhao-images/phone.png" alt=""></li>
+				<li>下载手机APP</li>
+			</ul>
+			<ul class="login">
+				<li><img id="qq" src="../images/zhao-images/qq.gif" alt=""></li>
+				<li><img id="sina" src="../images/zhao-images/sina.png" alt=""></li>
+				<li>登录</li>
+				<li id="shu"> | </li>
+				<li>注册</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="banner002">		
+	</div>
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Launch demo modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	       
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+</body>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(".top_nav .top_list").mouseenter(function(){
+		$("#live").attr("src","../images/zhao-images/newlive.png");
+		$(".top_list li").css("color","#50B8D8")
+	}).mouseleave(function(){
+		$("#live").attr("src","../images/zhao-images/live.png");
+		$(".top_list li").css("color","#fff")
+	}).click(function(){
+		$(this).next().toggle()//对所选开关 
+	})
+	$("#citys li").mouseenter(function(){
+		$(this).css("background-color","#f1fafa")
+	}).mouseleave(function(){
+		$(this).css("background-color","#fff")
+	})
+	$(".phone").mouseenter(function(){
+		$("#phone1").attr("src","../images/zhao-images/newphone.png")
+		$(".phone li").css("color","#50B8D8")
+	}).mouseleave(function(){
+		$("#phone1").attr("src","../images/zhao-images/phone.png")
+		$(".phone li").css("color","#fff")
+	}).click(function(){
+		window.location.href="http://www.izijia.cn/app_down/"
+	})
+	$(".login #qq").mouseenter(function(){
+		$(this).attr("src","../images/zhao-images/newqq.png")
+	}).mouseleave(function(){
+		$(this).attr("src","../images/zhao-images/qq.gif")
+	}).click(function(){
+		window.location.href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=101245346&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2Fqq_login.php&response_type=code&scope=get_user_info%2Cadd_share"
+	})
+	$(".login #sina").mouseenter(function(){
+		$(this).attr("src","../images/zhao-images/newsina.png");
+	}).mouseleave(function(){
+		$(this).attr("src","../images/zhao-images/sina.png");
+	}).click(function(){
+		window.location.href="https://api.weibo.com/oauth2/authorize?client_id=1194106718&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2F%2Findex.php%3Fs%3D%2Fhome%2Faddons%2Fexecute%2F_addons%2Fsync_login%2F_controller%2Fbase%2F_action%2Fcallback%2Ftype%2Fsina.html&response_type=code"
+	})
+	$(".login li").mouseenter(function(){
+		$(this).css("color","#50B8D8");
+		$("#shu").css("color","#fff");
+	}).mouseleave(function(){
+		$(this).css("color","#fff");
+	})
+		
+		
+		
+	
+</script>
+</html>
