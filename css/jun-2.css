@@ -421,6 +421,7 @@
       position: absolute;
       left: 50%;
       top: 10%;
+      z-index: 999;
       margin-left: -249px;
       height: 500px;
       padding-left: 74px;
@@ -435,6 +436,17 @@
       .modalbody{
         margin-top: 30px;
       }
+      .modalbody input{
+      	border:1px solid #EAEAEA;
+      	width:350px; height:46px;
+      	margin-bottom:17px;
+      	font-size:12px;  
+      	font-family:" 微软雅黑";"="
+      }
+      .modalbody span{
+		color:#f00;
+		font-size:12px;
+	}
       .modalfooter{
           width: 350px;
           height: 20px;
@@ -450,6 +462,7 @@
         color: #999;
         font-size: 14px;
         font-family: 微软雅黑;
+       	text-decoration: none;
       }
       .qita{
         width: 350px;
@@ -482,10 +495,25 @@
     .modalbody-2{
         margin-top: 30px;
     }
+    .modalbody-2 input{
+    	border:1px solid #EAEAEA; 
+    	width:350px; 
+    	height:46px; 
+    	margin-bottom:17px;
+    	color:#333; 
+    	font-size:12px;   
+    	font-family:" 微软雅黑";
+    	"="
+    }
+    .modalbody-2 span{
+		color:#f00;
+		font-size:12px;
+	}
     .tongyi{
       float: left;
       color: #ccc;
       font-family: "微软雅黑";
+      font-size:12px; line-height:44px;
     }
     .tongyi span {
       color: #999;
@@ -513,6 +541,9 @@
       }
       .changeCity{
         margin-left: 30px;
+        width:706px;
+        font-family:'微软雅黑';
+        font-size:15px;
 
       }
       #placelist{
