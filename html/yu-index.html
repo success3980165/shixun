@@ -11,7 +11,21 @@
 	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/jquery.cycle.all.js"></script>
-	
+
+
+				<!-- <div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Dropdown
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				    <li><a href="#">Action</a></li>
+				    <li><a href="#">Another action</a></li>
+				    <li><a href="#">Something else here</a></li>
+				    <li><a href="#">Separated link</a></li>
+				  </ul>
+				</div> -->
+
 
 
 	<div id="header">
@@ -19,17 +33,60 @@
 			<div id="box1">
 				<a href=""><img src="../images/yu-images/live.png" alt=""></a>
 				<ul class="list1">
-					<a href=""><li>北京</li></a>
-					<a href=""><li>切换</li></a>
+					<li class="chengshi">北京</li>					
+				<div class="dropdown">
+				  <li class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    切换
+				  <span class="caret"></span>
+				  </li>
+				  	<div class="dropdown-menu" aria-labelledby="dropdownMenu1" style="width:706px;font-family:'微软雅黑';font-size:15px;">
+				  	<div style="float:left;width:46px;height:100px;color:#666;padding-top:3px;">全国:</div>
+				  	<div class="city">
+				  	<ul class="placeList">
+				  <li class="placeName" id="11">北京</li>
+		          <li class="placeName" id="12">天津</li>
+		          <li class="placeName" id="13">河北</li>
+		          <li class="placeName" id="14">山西</li>
+		          <li class="placeName" id="15">内蒙古</li>
+		          <li class="placeName" id="21">辽宁</li>
+		          <li class="placeName" id="22">吉林</li>
+		          <li class="placeName" id="23">黑龙江</li>
+		          <li class="placeName" id="31">上海</li>
+		          <li class="placeName" id="32">江苏</li>
+		          <li class="placeName" id="33">浙江</li>
+		          <li class="placeName" id="34">安徽</li>
+		          <li class="placeName" id="35">福建</li>
+		          <li class="placeName" id="36">江西</li>
+		          <li class="placeName" id="37">山东</li>
+		          <li class="placeName" id="41">河南</li>
+		          <li class="placeName" id="42">湖北</li>
+		          <li class="placeName" id="43">湖南</li>
+		          <li class="placeName" id="44">广东</li>
+		          <li class="placeName" id="45">广西</li>
+		          <li class="placeName" id="46">海南</li>
+		          <li class="placeName" id="50">重庆</li>
+		          <li class="placeName" id="51">四川</li>
+		          <li class="placeName" id="52">贵州</li>
+		          <li class="placeName" id="53">云南</li>
+		          <li class="placeName" id="54">西藏</li>
+		          <li class="placeName" id="61">陕西</li>
+		          <li class="placeName" id="62">甘肃</li>
+		          <li class="placeName" id="63">青海</li>
+		          <li class="placeName" id="64">宁夏</li>
+		          <li class="placeName" id="65">新疆</li>
+		          </ul>
+		          </div>
+				  </div>
+				</div>
 				</ul>
 			</div>
 			<div id="box2">
 				<a href=""><img src="../images/yu-images/phone.png" alt=""></a>
-				<a href="">下载手机APP</a>
+				<a href="http://www.izijia.cn/app_down">下载手机APP</a>
 			</div>
 			<div id="box3">
-				<a href="" ><img src="../images/yu-images/qq.gif" alt="" class="nav1"></a>
-				<a href=""><img src="../images/yu-images/sina.png" alt="" class="nav2"></a>
+				<a href="https://graph.qq.com/oauth/show?which=ConfirmPage&display=pc&client_id=101245346&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2Fqq_login.php&response_type=code&scope=get_user_info%2Cadd_share" ><img src="../images/yu-images/qq.gif" alt="" class="nav1"></a>
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=1194106718&redirect_uri=http%3A%2F%2Fmember.izijia.cn%2F%2Findex.php%3Fs%3D%2Fhome%2Faddons%2Fexecute%2F_addons%2Fsync_login%2F_controller%2Fbase%2F_action%2Fcallback%2Ftype%2Fsina.html&response_type=code"><img src="../images/yu-images/sina.png" alt="" class="nav2"></a>
 					<ul class="list2">
 					<li data-toggle="modal" data-target="#myModal">
 					  登录
@@ -45,8 +102,8 @@
 			</div>
 		</div>
 	</div>
-	<div id="goheader">
-		<div id="bigbox1">
+	<div class="goheader">
+		<div class="bigbox1">
 			<div class="box4">
 			<img src="../images/yu-images/logo.jpg" alt="">
 			</div>
@@ -770,6 +827,15 @@
 				  </div>
 				</div>
 
+				<!-- <div class="dropdown">
+				  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Dropdown trigger
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dLabel">
+				    ...
+				  </ul>
+				</div>
+ -->
 
 
 
@@ -865,32 +931,69 @@
 			$(this).parent().next().text(val);
 
 		})
-		// $(".pic2").click(function(){
-		// 	var val = $("#s2").text()
-		// 	if(val == 1){
-		// 		val--
-		// 		$("#s2").text(val)
-		// 	}
-
-		// })
-
-      	
-		</script>
 
 
+
+		$(".palceList li").click(function(){
+			var val = $(this).text();
+			console.log(val)
+			$(".chengshi").text(val)
+		})
 		
+	</script>
+
+
+		<!-- <ul class="list1">
+					<li class="chengshi">北京</li>	
+		<div class="dropdown">
+				  <li class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    切换
+				    <span class="caret"></span>
+				  </li>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				  	<div class="dropdown2" style="width:706px;font-family:'微软雅黑';font-size:15px;">
+				  	<div style="float:left;width:46px;height:100px;color:#666;padding-top:3px;">全国:</div>
+				  	<ul class="placeList">
+				  <li class="placeName" id="11">北京</li>
+		          <li class="placeName" id="12">天津</li>
+		          <li class="placeName" id="13">河北</li>
+		          <li class="placeName" id="14">山西</li>
+		          <li class="placeName" id="15">内蒙古</li>
+		          <li class="placeName" id="21">辽宁</li>
+		          <li class="placeName" id="22">吉林</li>
+		          <li class="placeName" id="23">黑龙江</li>
+		          <li class="placeName" id="31">上海</li>
+		          <li class="placeName" id="32">江苏</li>
+		          <li class="placeName" id="33">浙江</li>
+		          <li class="placeName" id="34">安徽</li>
+		          <li class="placeName" id="35">福建</li>
+		          <li class="placeName" id="36">江西</li>
+		          <li class="placeName" id="37">山东</li>
+		          <li class="placeName" id="41">河南</li>
+		          <li class="placeName" id="42">湖北</li>
+		          <li class="placeName" id="43">湖南</li>
+		          <li class="placeName" id="44">广东</li>
+		          <li class="placeName" id="45">广西</li>
+		          <li class="placeName" id="46">海南</li>
+		          <li class="placeName" id="50">重庆</li>
+		          <li class="placeName" id="51">四川</li>
+		          <li class="placeName" id="52">贵州</li>
+		          <li class="placeName" id="53">云南</li>
+		          <li class="placeName" id="54">西藏</li>
+		          <li class="placeName" id="61">陕西</li>
+		          <li class="placeName" id="62">甘肃</li>
+		          <li class="placeName" id="63">青海</li>
+		          <li class="placeName" id="64">宁夏</li>
+		          <li class="placeName" id="65">新疆</li>
+		          </ul>
+		          </div>
+				  </div>
+				</div>
+				</ul> -->
 
 
 
 
-			<!-- <ul class="list8">
-				<li><img src="../images/yu-images/yanjing.png" ></li>
-				<li id="l2">36</li>
-				<li><img src="../images/yu-images/shou.png" class="pic"></li>
-				<li id="s2">0</li>
-			</ul>	
-			</div>
- -->
 
 
 

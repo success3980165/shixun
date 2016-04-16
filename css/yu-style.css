@@ -32,14 +32,51 @@
 	#box1 img{
 		float: left;
 	}
+	
 	#box1 .list1 li{
 		float: left;
 		color: #fff;
 		padding-left: 15px;
 	}
-	#box1 a{
+	/*#box1 a{
 		color: #fff;
 		text-decoration: none;
+	}*/
+	#box1 .dropdown{
+		position: absolute;
+		top: 5px;
+		left: 250px;
+	}
+	#box1 .dropdown-toggle{
+		background-color: #244d5f;
+		border-color:#244d5f;
+	}
+	/*#box1 .list1 .dropdown-menu{
+		color: #0f0;
+	}*/
+	#box1 .dropdown-menu{
+		width: 736px;
+		padding-bottom: 6px;
+		outline: none;
+	}
+	#box1 .dropdown-menu .placeList{
+		width: 630px;
+		display: inline;
+		height: auto;
+	}
+	#box1 .dropdown-menu .city{
+		width: 660px;
+		height: 100px;
+	}
+	#box1 .dropdown-menu .placeName{
+		color: #50B8D8;
+		width: 66px;
+		float: left;
+		text-align: center;
+		line-height: 26px;
+		cursor: pointer;
+		margin: 0 2px;
+		list-style: none;
 	}
 	#box2{
 		width: 134px;
@@ -90,23 +127,23 @@
 		color: #fff;
 		text-decoration: none;
 	}
-	#goheader{
+	.goheader{
 		height: 79px;
 		overflow: hidden;
 
 		
 	}
-	#bigbox1{
+	.bigbox1{
 		width: 1002px;
 		height: 79px;
 		margin: 0px auto;
 	}
-	#bigbox1 .box4{
+	.bigbox1 .box4{
 		float: left;
 		padding-top: 8px;
 		overflow: hidden;
 	}
-	#bigbox1 .list3{
+	.bigbox1 .list3{
 		width: 720px;
 		height: 80px;
 		float: right;
@@ -114,7 +151,7 @@
 		margin-top: -25px;
 		font-family: 微软雅黑
 	}
-	#bigbox1 .list3 li{
+	.bigbox1 .list3 li{
 		width: 80px;
 		/*height: 80px;*/
 		float: left;
@@ -123,7 +160,7 @@
 		color: #000;
 		text-align: center;
 	}
-	#bigbox1 .list3 li a{
+	.bigbox1 .list3 li a{
 		text-decoration: none;
 		color:#4e4e4e;
 		line-height: 80px;
@@ -131,7 +168,7 @@
 		font-size:15px;
 		font-family: regular;
 	}
-	#bigbox1 .list3 li span{
+	.bigbox1 .list3 li span{
 		width: 80px;
 		height: 80px;
 		background-color: #52bbdb;
@@ -304,6 +341,9 @@
 	#box14 .list5 .yanse img{
 		margin-left: 5px;
 		cursor: pointer;
+	}
+	#box14 .list5 .dropdown-menu{
+		width: 105px;
 	}
 	#box14 .list6{
 		width: 250px;
