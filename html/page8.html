@@ -8,10 +8,96 @@
 
 </head>
 <body>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
 
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="model-top">
+			<img class="model-pic1" src="../images/ying-images/ying-aizijialogo.jpg" alt="">
 
+        </div>
+        <div class="mtkshuru">
+        <form action="">
+        <input class="model-input1" type="text" placeholder="邮箱/手机/用户名">
+         <input class="model-input2" type="password" placeholder="密码">
+         <input class="model-input3" type="submit" value="登录">
+         </form>
+         </div>
+         <div class="mtkdenglu">
 
+			<span class="mtk-span1">忘记密码</span>
+			<span class="mtk-span2">还没有账号?</span>
+			<span class="mtk-span3">免费注册</span>
 
+         </div>
+         <div class="mtkhaha">
+			<ul class="mtkhaha-list">
+				<li class="haha1"></li>
+				<li class="haha2">其他报名方式</li>
+				<li class="haha3"></li>
+
+			</ul>
+			<p class="green">验证通过！</p>
+			<p class="red">验证失败！</p>
+			<p class="green1">验证通过！</p>
+			<p class="red1">验证失败！</p>
+
+         </div>
+         <div class="mtkdig">
+         	 <input class="model-input4" type="text" value="不登录，直接报名">
+         </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- zhuce -->
+<div class="modal fade" id="zhuceModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <div class="modal-zhuce">
+        	<img class="model-pic2" src="../images/ying-images/ying-aizijialogo.jpg" alt="">
+        </div>
+		<div class="modal-title"><span class="title-span">用手机注册</span></div>
+		<div class="modal-shuru">
+			<form action="">
+			<input class="shuru1" type="text" placeholder="请输入邮箱">
+			<input class="shuru2" type="text" placeholder="用户名,4-16个字符,字母/中文/数字">
+			<input class="shuru3" type="password" placeholder="设置密码">
+			<input class="shuru4" type="password" placeholder="输入密码">
+			<input class="shuru5" type="text" placeholder="输入邀请码,可不填">
+			</form>
+			<ul class="zhucelist">
+				<li class="zhucelist1">注册视为同意<span class="zhucelist-span">《爱自驾用户使用协议》</span></li>
+				<li class="zhucelist2"><input class="model-input5" type="text" value="注册"></li>
+			</ul>
+			<p class="green2">验证通过！</p>
+			<p class="red2">验证失败！</p>
+			<p class="green3">验证通过！</p>
+			<p class="red3">验证失败！</p>
+		</div>
+		<div class="mtkxixi">
+			<ul class="mtkxixi-list">
+				<li class="xixi1"></li>
+				<li class="xixi2">其他报名方式</li>
+				<li class="xixi3"></li>
+			</ul>
+         </div>
+         <div class="mtkzhucedig">
+         	 <input class="model-input6" type="text" value="快速登录>">
+         </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 
@@ -20,30 +106,78 @@
 	<div id="header">
 		<div class="header-top">
 			<div class="top">
-			<img class="pic1" src="../images/ying-images/live.png" alt="">
+
+
+			<div class="btn-group">
+ 			 <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    		<img class="pic1" src="../images/ying-images/live.png" alt="">
 			<span class="s1">北京</span>
-			<span class="s2">切换</span>
+			<span class="s2">切换</span></a>
+			<div class="dropdown-menu" aria-labelledby="dLabel">
+
+    		<div class="changeCity clearfix" style="width:736px;font-family:'微软雅黑';font-size:15px;">
+      					<div style="float:left;width:46px;height:auto;color:#666;">
+       						 全国:
+      						</div>
+      <div style="float:left;width:630px;height:auto;">
+        <ul id="placelist" style="width:630px;float:left;">
+		          <li class="placeName" id="11">北京</li>
+		          <li class="placeName" id="12">天津</li>
+		          <li class="placeName" id="13">河北</li>
+		          <li class="placeName" id="14">山西</li>
+		          <li class="placeName" id="15">内蒙古</li>
+		          <li class="placeName" id="21">辽宁</li>
+		          <li class="placeName" id="22">吉林</li>
+		          <li class="placeName" id="23">黑龙江</li>
+		          <li class="placeName" id="31">上海</li>
+		          <li class="placeName" id="32">江苏</li>
+		          <li class="placeName" id="33">浙江</li>
+		          <li class="placeName" id="34">安徽</li>
+		          <li class="placeName" id="35">福建</li>
+		          <li class="placeName" id="36">江西</li>
+		          <li class="placeName" id="37">山东</li>
+		          <li class="placeName" id="41">河南</li>
+		          <li class="placeName" id="42">湖北</li>
+		          <li class="placeName" id="43">湖南</li>
+		          <li class="placeName" id="44">广东</li>
+		          <li class="placeName" id="45">广西</li>
+		          <li class="placeName" id="46">海南</li>
+		          <li class="placeName" id="50">重庆</li>
+		          <li class="placeName" id="51">四川</li>
+		          <li class="placeName" id="52">贵州</li>
+		          <li class="placeName" id="53">云南</li>
+		          <li class="placeName" id="54">西藏</li>
+		          <li class="placeName" id="61">陕西</li>
+		          <li class="placeName" id="62">甘肃</li>
+		          <li class="placeName" id="63">青海</li>
+		          <li class="placeName" id="64">宁夏</li>
+		          <li class="placeName" id="65">新疆</li>
+        	</ul>
+      </div>
+    </div>
+  </div>
+</div>
 			<img class="pic2" src="../images/ying-images/phone.png" alt="">
 			<span class="s3">下载手机APP</span>
-			<img class="pic3" src="../images/ying-images/qq.gif" alt="">
+			<a href="login.html"><img class="pic3" src="../images/ying-images/qq.gif" alt=""></a>
 			<img class="pic4" src="../images/ying-images/sina.png" alt="">
-			<span class="s4"><a data-toggle="modal" data-target="#myModal">登录</a></span>&nbsp |
-			<span class="s5"> 注册</span>
+			<span class="s4"><a data-toggle="modal" data-target="#myModal">登录</a></span>&nbsp&nbsp|
+			<span class="s5"><a data-toggle="modal" data-target="#zhuceModal"> 注册</a></span>
 			</div>
 		</div>
 		<div class="header-logo">
 			<div class="logo">
 				<img class="pic5" src="../images/ying-images/logo.jpg" alt="">
 				<ul class="list">
-					<li><a href="#">首页</a></li>
-					<li><a href="#">目的地</a></li>
-					<li><a href="#">线路</a></li>
-					<li><a href="#">定制</a></li>
-					<li><a href="#">自驾团</a></li>
+					<li><a href="#"><span>首页</span></a></li>
+					<li><a href="#"><span>目的地</span></a></li>
+					<li><a href="#"><span>线路</span></a></li>
+					<li><a href="#"><span>定制</span></a></li>
+					<li><a href="#"><span>自驾团</span></a></li>
 					<li><a href="#"><span>摄影</span></a></li>
-					<li><a href="#">互动</a></li>
-					<li><a href="#">精选</a></li>
-					<li><a href="#">预定</a></li>
+					<li><a href="#"><span>互动</span></a></li>
+					<li><a href="#"><span>精选</span></a></li>
+					<li><a href="#"><span>预定</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -53,7 +187,7 @@
 	</div>
 	<div id="container">
 		<div class="container-top">
-			<input type="text" placeholder="请输入出发地">
+			<input class="sousuo" type="text" placeholder="请输入出发地">
 			<img class="pic7" src="../images/ying-images/sousuo.png" alt="">
 			<ul class="list2">
 				<li>热门搜索：</li>
@@ -88,9 +222,9 @@
 					<div class="box1-3">
 						<img class="pic10" src="../images/ying-images/ren.png" alt="">
 						<span class="s9">携友同行汽车俱乐部</span>
-						<img class="pic11" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic11" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s10">36</span>
-						<img class="pic12" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic12" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s11">0</span>
 					</div>
 				</div>
@@ -111,9 +245,9 @@
 					<div class="box2-3">
 						<img class="pic15" src="../images/ying-images/ren.png" alt="">
 						<span class="s12">北京969汽车俱乐部</span>
-						<img class="pic16" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic16" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s13">36</span>
-						<img class="pic17" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic17" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s14">0</span>
 					</div>
 				</div>
@@ -134,9 +268,9 @@
 					<div class="box3-3">
 						<img class="pic20" src="../images/ying-images/ren.png" alt="">
 						<span class="s15">成都新起点汽车俱乐部</span>
-						<img class="pic21" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic21" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s16">36</span>
-						<img class="pic22" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic22" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s17">0</span>
 					</div>
 				</div>
@@ -158,9 +292,9 @@
 					<div class="box4-3">
 						<img class="pic25" src="../images/ying-images/ren.png" alt="">
 						<span class="s18">中国自驾游联盟南京站</span>
-						<img class="pic26" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic26" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s19">36</span>
-						<img class="pic27" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic27" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s20">0</span>
 					</div>
 				</div>
@@ -179,9 +313,9 @@
 					<div class="box5-3">
 						<img class="pic30" src="../images/ying-images/ren.png" alt="">
 						<span class="s21">中国自驾游联盟南京站</span>
-						<img class="pic31" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic31" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s22">36</span>
-						<img class="pic32" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic32" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s23">0</span>
 					</div>
 				</div>
@@ -201,9 +335,9 @@
 					<div class="box6-3">
 						<img class="pic35" src="../images/ying-images/ren.png" alt="">
 						<span class="s24">中国自驾游联盟南京站</span>
-						<img class="pic36" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic36" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s25">36</span>
-						<img class="pic37" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic37" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s26">0</span>
 					</div>
 				</div>
@@ -223,9 +357,9 @@
 					<div class="box7-3">
 						<img class="pic40" src="../images/ying-images/ren.png" alt="">
 						<span class="s27">中国自驾游联盟南京站</span>
-						<img class="pic41" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic41" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s28">36</span>
-						<img class="pic42" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic42" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s29">0</span>
 					</div>
 				</div>
@@ -243,9 +377,9 @@
 					<div class="box8-3">
 						<img class="pic45" src="../images/ying-images/ren.png" alt="">
 						<span class="s30">中国自驾游联盟南京站</span>
-						<img class="pic46" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic46" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s31">36</span>
-						<img class="pic47" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic47" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s32">0</span>
 					</div>
 				</div>
@@ -264,9 +398,9 @@
 					<div class="box9-3">
 						<img class="pic50" src="../images/ying-images/ren.png" alt="">
 						<span class="s33">中国自驾游联盟南京站</span>
-						<img class="pic51" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic51" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s34">36</span>
-						<img class="pic52" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic52" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s35">0</span>
 					</div>
 				</div>
@@ -285,9 +419,9 @@
 					<div class="box10-3">
 						<img class="pic55" src="../images/ying-images/ren.png" alt="">
 						<span class="s36">中国自驾游联盟南京站</span>
-						<img class="pic56" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic56" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s37">36</span>
-						<img class="pic57" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic57" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s38">0</span>
 					</div>
 				</div>
@@ -305,9 +439,9 @@
 					<div class="box11-3">
 						<img class="pic60" src="../images/ying-images/ren.png" alt="">
 						<span class="s39">中国自驾游联盟南京站</span>
-						<img class="pic61" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic61" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s40">36</span>
-						<img class="pic62" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic62" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s41">0</span>
 					</div>
 				</div>
@@ -326,9 +460,9 @@
 					<div class="box12-3">
 						<img class="pic65" src="../images/ying-images/ren.png" alt="">
 						<span class="s42">中国自驾游联盟南京站</span>
-						<img class="pic66" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic66" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s43">36</span>
-						<img class="pic67" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic67" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s44">0</span>
 					</div>
 				</div>
@@ -348,9 +482,9 @@
 					<div class="box13-3">
 						<img class="pic70" src="../images/ying-images/ren.png" alt="">
 						<span class="s45">中国自驾游联盟南京站</span>
-						<img class="pic71" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic71" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s46">36</span>
-						<img class="pic72" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic72" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s47">0</span>
 					</div>
 				</div>
@@ -369,9 +503,9 @@
 					<div class="box14-3">
 						<img class="pic75" src="../images/ying-images/ren.png" alt="">
 						<span class="s48">中国自驾游联盟南京站</span>
-						<img class="pic76" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic76" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s49">36</span>
-						<img class="pic77" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic77" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s50">0</span>
 					</div>
 				</div>
@@ -389,9 +523,9 @@
 					<div class="box15-3">
 						<img class="pic80" src="../images/ying-images/ren.png" alt="">
 						<span class="s51">中国自驾游联盟南京站</span>
-						<img class="pic81" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic81" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s52">36</span>
-						<img class="pic82" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic82" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s53">0</span>
 					</div>
 				</div>
@@ -410,9 +544,9 @@
 					<div class="box16-3">
 						<img class="pic85" src="../images/ying-images/ren.png" alt="">
 						<span class="s54">中国自驾游联盟南京站</span>
-						<img class="pic86" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic86" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s55">36</span>
-						<img class="pic87" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic87" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s56">0</span>
 					</div>
 				</div>
@@ -430,9 +564,9 @@
 					<div class="box17-3">
 						<img class="pic90" src="../images/ying-images/ren.png" alt="">
 						<span class="s57">中国自驾游联盟南京站</span>
-						<img class="pic91" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic91" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s58">36</span>
-						<img class="pic92" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic92" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s59">0</span>
 					</div>
 				</div>
@@ -450,9 +584,9 @@
 					<div class="box18-3">
 						<img class="pic95" src="../images/ying-images/ren.png" alt="">
 						<span class="s60">中国自驾游联盟南京站</span>
-						<img class="pic96" src="../images/ying-images/yanjing.png" alt="">
+						<span class="dianyan"><img class="pic96" src="../images/ying-images/yanjing.png" alt=""></span>
 						<span class="s61">36</span>
-						<img class="pic97" src="../images/ying-images/shou.png" alt="">
+						<span class="dianzan"><img class="pic97" src="../images/ying-images/shou.png" alt=""></span>
 						<span class="s62">0</span>
 					</div>
 				</div>
@@ -461,14 +595,16 @@
 		</div>
 		<div id="container-dig">
 			<ul class="dig-list">
-				<li class="d1"><img src="../images/ying-images/1.jpg" alt=""></li>
-				<li class="d2"><img src="../images/ying-images/2.jpg" alt=""></li>
-				<li class="d3"><img src="../images/ying-images/3.jpg" alt=""></li>
-				<li class="d4"><img src="../images/ying-images/4.jpg" alt=""></li>
-				<li class="d5"><img src="../images/ying-images/5.jpg" alt=""></li>
-				<li class="d6"><img src="../images/ying-images/6.jpg" alt=""></li>
-				<li class="d7"><img src="../images/ying-images/7.jpg" alt=""></li>
-				<li class="d8"><img src="../images/ying-images/8.jpg" alt=""></li>
+				<li class="d1"><a href="#"><<</a></li>
+				<li class="d2"><a href="#"><</a></li>
+				<ul class="list-dig">
+				<li class="d3"><a href="#">1</a></li>
+				<li class="d4"><a href="#">2</a></li>
+				<li class="d5"><a href="#">3</a></li>
+				<li class="d6"><a href="#">4</a></li>
+				</ul>
+				<li class="d7"><a href="#">></a></li>
+				<li class="d8"><a href="#">>></a></li>
 			</ul>
 		</div>
 	</div>
@@ -495,7 +631,190 @@
 	</div>
 
  <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
- <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+ <script type="text/javascript" src="../js/bootstrap.js"></script>
+ <script type="text/javascript">
+
+    	$(".list li").mouseenter(function(){
+
+    		$(this).css("background-color","#50bbdb");
+    		$(this).siblings().css("background-color","white");
+    	})
+
+    	$(".list li").mouseleave(function(){
+
+    		$(this).css("background-color","white");
+
+    	})
+		// biaodanyazheng
+		var reg1=/^[0-9a-zA-Z]{5,8}\@[A-Za-z]{2,3}\.(com|cn)$/
+    	$(".model-input1").blur(function(){
+    		var val=$(this).val()
+    		var result=reg1.test(val)
+
+    		if(result){
+    			$(".green").css("display","block")
+    			$(".red").css("display","none")
+    		}else{
+
+    			$(".red").css("display","block")
+    			$(".green").css("display","none")
+
+    		}
+    	})
+    	var reg2=/^[0-9a-zA-Z]{5,6}$/
+    	$(".model-input2").blur(function(){
+    		var val=$(this).val()
+    		var result1=reg2.test(val)
+
+    		if(result1){
+
+    		$(".green1").css("display","block")
+    		$(".red1").css("display","none")
+
+
+    		}else{
+
+    		$(".green1").css("display","none")
+    		$(".red1").css("display","block")
+
+
+    		}
+    	})
+    	// zhuceyouxiang
+    	var reg3=/^[0-9a-zA-Z]{5,8}\@[A-Za-z]{2,3}\.(com|cn)$/
+    	$(".shuru1").blur(function(){
+    		var val=$(this).val()
+    		var result=reg3.test(val)
+
+    		if(result){
+    			$(".green2").css("display","block")
+    			$(".red2").css("display","none")
+    		}else{
+
+    			$(".red2").css("display","block")
+    			$(".green2").css("display","none")
+
+    		}
+    	})
+    	var reg4=/^[0-9a-zA-Z]{5,6}$/
+    	$(".shuru3").blur(function(){
+    		var val=$(this).val()
+    		var result1=reg4.test(val)
+
+    		if(result1){
+
+    		$(".green3").css("display","block")
+    		$(".red3").css("display","none")
+
+
+    		}else{
+
+    		$(".green3").css("display","none")
+    		$(".red3").css("display","block")
+
+
+    		}
+    	})
+    	$(".close").click(function(){
+    		$(".green").css("display","none")
+    		$(".red").css("display","none")
+    		$(".green1").css("display","none")
+    		$(".red1").css("display","none")
+    		$(".green2").css("display","none")
+    		$(".red2").css("display","none")
+    		$(".model-input1").val("")
+    		$(".model-input2").val("")
+    		$(".shuru1").val("")
+    		$(".shuru3").val("")
+
+
+    	})
+
+
+    	$(".s4").mouseenter(function(){
+    		$(this).find("a").css("color","white")
+    	})
+    	$(".s4").mouseleave(function(){
+    		$(this).find("a").css("color","white")
+    	})
+    	$(".s5 a").mouseenter(function(){
+    		$(this).css("color","white")
+    	})
+
+    	$(".s5 a").mouseleave(function(){
+    		$(this).css("color","white")
+    	})
+
+    	$(".pic3").mouseenter(function(){
+    		$(this).attr("src","../images/ying-images/qq1.png")
+    	})
+    	$(".pic3").mouseleave(function(){
+    		$(this).attr("src","../images/ying-images/qq.png")
+    	})
+    	$(".pic4").mouseenter(function(){
+    		$(this).attr("src","../images/ying-images/weibo1.png")
+    	})
+    	$(".pic4").mouseleave(function(){
+    		$(this).attr("src","../images/ying-images/weibo.png")
+    	})
+
+    	$(".dianzan img").click(function(){
+    		var a = $(this).attr("src");
+    		var ind=Number($(this).parent().next().text());
+    		if(a=="../images/ying-images/shou.png"){
+
+    			var num=ind+1;
+
+    			$(this).parent().next().text(num);
+    			$(this).attr("src","../images/ying-images/zan2.gif");
+
+    	}else{
+    			var num=ind-1;
+				$(this).parent().next().text(num)
+    			$(this).attr("src","../images/ying-images/shou.png")
+
+    	}
+
+    	})
+    	$(".dianyan img").click(function(){
+    		var a = $(this).attr("src");
+    		var ind=Number($(this).parent().next().text());
+    		if(a=="../images/ying-images/yanjing.png"){
+
+    			var num=ind+1;
+
+    			$(this).parent().next().text(num);
+    			$(this).attr("src","../images/ying-images/yanjing1.png");
+
+    	}else{
+    			var num=ind-1;
+				$(this).parent().next().text(num)
+    			$(this).attr("src","../images/ying-images/yanjing.png")
+
+    	}
+
+    	})
+    	$("#placelist li").click(function(){
+    		var txt=$(this).text()
+    		$(".s1").text(txt)
+    	})
+
+    	$(".list-dig li").mouseenter(function(){
+    		$(this).css("background-color","#50bbdb")
+    		$(this).siblings().css("background-color","#d3d3d3")
+
+    	})
+
+    	$(".list-dig li").mouseleave(function(){
+    		$(this).css("background-color","#d3d3d3")
+
+    	})
+
+    	$(".list2 li").click(function(){
+    		var txt1=$(this).text()
+    		$(".sousuo").val(txt1).css("color","blue")
+    	})
+ </script>
 
 </body>
 </html>
