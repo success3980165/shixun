@@ -1,0 +1,66 @@
+[
+    {
+        "username": "zhao",
+        "age": "20",
+        "sex": "男",
+        "password": "123"
+    },
+    {
+        "username": "qian",
+        "age": "20",
+        "sex": "女",
+        "password": "456"
+    },
+    {
+        "username": "sun",
+        "age": "20",
+        "sex": "男",
+        "password": "789"
+    },
+    {
+        "username": "yu",
+        "age": "25",
+        "sex": "男",
+        "password": "1011"
+    },
+    {
+        "mail": "1175@qq.com",
+        "username": "chen",
+        "password": "123"
+    },
+    {
+        "mail": "1175@qq.com",
+        "username": "1111",
+        "password": "1111"
+    },
+    {
+        "mail": "qqqqq",
+        "username": "qqqqw",
+        "password": "qqqqw"
+    },
+    {
+        "mail": "1123455@qq.com",
+        "username": "mingtian",
+        "password": "2222"
+    },
+    {
+        "mail": "weqrqw@qq.com",
+        "username": "aaaa",
+        "password": "2222"
+    },
+    {
+        "mail": "wwwww@qq.com",
+        "username": "wwww",
+        "password": "1111"
+    },
+    {
+        "mail": "",
+        "username": "aaaaa",
+        "password": "1111"
+    },
+    {
+        "mail": "",
+        "username": "zzzz",
+        "password": "2222"
+    }
+]
